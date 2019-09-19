@@ -7,13 +7,11 @@ i {
   font-family: "Noto Sans Japanese", sans-serif;
 }
 
-a {
+nav a {
+  display: block;
+  border-bottom: solid 2px #8bc9d9;
   text-decoration: none;
   color: #005e76;
-}
-
-li {
-  border-bottom: solid 1px #8bc9d9;
 }
 
 .top {
@@ -23,4 +21,29 @@ li {
 
 section {
   border-bottom: solid 1px #e2e2e2;
+}
+
+.btn-ghost a {
+  text-decoration: none;
+  color: #005e76;
+}
+
+.btn-ghost {
+  border-color: #8bc9d9;
+}
+
+.btn-ghost:hover {
+  border-color: #0084a6;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .logo {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
+
 }
