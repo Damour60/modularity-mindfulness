@@ -1,17 +1,17 @@
+
 html {
   font-family: "Noto Sans", sans-serif;
-  color: #000;
 }
 
 i {
   font-family: "Noto Sans Japanese", sans-serif;
 }
 
-nav a {
+.nav a {
   display: block;
-  border-bottom: solid 2px #8bc9d9;
   text-decoration: none;
   color: #005e76;
+  border-bottom: 2px solid #8bc9d9;
 }
 
 .nav a:hover {
@@ -23,20 +23,24 @@ nav a {
   border-bottom: 2px solid #e2e2e2;
 }
 
-.btn-ghost a {
-  text-decoration: none;
-  color: #005e76;
-}
-
 .btn-ghost {
+  color: #005e76;
   border-color: #8bc9d9;
   border-width: 2px;
 }
 
 .btn-ghost:hover {
-  border-color: #005e76;
   color: #000;
   background-color: #0084a6;
+  border-color: #005e76;
+}
+
+.border {
+  border-top: 2px solid #e2e2e2;
+}
+
+footer {
+  color: #666;
 }
 
 @media only screen and (min-width: 60em) {
