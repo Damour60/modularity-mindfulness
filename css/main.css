@@ -14,13 +14,13 @@ nav a {
   color: #005e76;
 }
 
-.top {
-  border-bottom: solid 1px #e2e2e2;
-  border-top: solid 1px #e2e2e2;
+.nav a:hover {
+  color: #000;
 }
 
-section {
-  border-bottom: solid 1px #e2e2e2;
+.slogan {
+  border-top: 2px solid #e2e2e2;
+  border-bottom: 2px solid #e2e2e2;
 }
 
 .btn-ghost a {
@@ -30,19 +30,22 @@ section {
 
 .btn-ghost {
   border-color: #8bc9d9;
+  border-width: 2px;
 }
 
 .btn-ghost:hover {
-  border-color: #0084a6;
+  border-color: #005e76;
+  color: #000;
+  background-color: #0084a6;
 }
 
 @media only screen and (min-width: 60em) {
 
-  .logo {
+  .masthead {
     text-align: left;
   }
 
-  .nav {
+  .head-right {
     text-align: right;
   }
 
